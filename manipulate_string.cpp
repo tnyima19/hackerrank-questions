@@ -21,6 +21,8 @@ int main() {
     int total= 0;
     if(second_string.size()<first_string.size()){
         total = second_string.size();
+    } else {
+        total = first_string.size();
     }
     for(int i=0;i<total; ++i){
         if(i==0){
